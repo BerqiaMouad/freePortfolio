@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.customer-bg{
+    background: url("../images/background1.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-bottom: 4em;
+}
+
+.header{
+    padding: 1em 0;
+}
+
+.customer-bg a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+section{
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 2em 0 1.2em;
+}
+
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 1;
+}
+
+h1 span::before{
+    content: ' ';
+    position: absolute;
+    width: 3em;
+    background: rgb(31, 0, 167);
+    height: .4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
+.customer-bg p {
+    font-weight: bold;
+    margin: 0 1em 3em;
+}
+
+.your-skills{
+    margin: 0;
+}
+
+.right-col-skills{
+    width: 300px;
+    margin: 60px auto;
+    color: rgb(0, 0, 0);
+}
+
+.right-col-skills h1{
+    text-align: center;
+}
+
+.right-col-skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background:rgb(3, 125, 240) ;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(31, 0, 167);
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: rgb(31, 0, 167);
+}
+
+.skill1{
+    width: 90%;
+    animation: skill1 3s;
+}
+.skill2{
+    width: 70%;
+    animation: skill2 3s;
+}
+.skill3{
+    width: 50%;
+    animation: skill3 3s;
+}
+.skill4{
+    width: 30%;
+    animation: skill4 3s;
+}
+
+@keyframes skill1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes skill2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes skill3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes skill4{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+.your-ewperiences{
+    margin: 0;
+}
+
+.left-col-experiences{
+    width: 300px;
+    margin: 60px auto;
+    color: rgb(0, 0, 0);
+}
+
+.left-col-experiences h1{
+    text-align: center;
+}
+
+.left-col-experiences li{
+    margin: 20px 0;
+}
+
+.exp1{
+    width: 90%;
+    animation: exp1 3s;
+}
+.exp2{
+    width: 70%;
+    animation: exp2 3s;
+}
+.exp3{
+    width: 50%;
+    animation: exp3 3s;
+}
+.exp4{
+    width: 30%;
+    animation: exp4 3s;
+}
+
+@keyframes exp1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes exp2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes exp3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes exp4{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+img{
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+.contact-section{
+    background-size: cover;
+    padding: 40px 0;
+}
+.contact-section h1{
+    text-align: center;
+    color: #ddd;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover{
+    background: #2980b9;
+}
+
+.myprofiles{
+    margin: 0;
+}
+
+.profiles{
+    background: rgb(255, 255, 255);
+    background-position: 10px;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.profiles a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin: 0 10px;
+}
+
+.profiles a:hover{
+    color: rgb(38, 0, 255);
+    transition: color 0.2s;
+}
+
+@media (min-width: 730px) {
+    section{
+        margin: 0 4em;
+    }
+}
+
+@media (min-width: 930px) {
+    .your-skills{
+        display: flex;
+    }
+    img{
+        max-width: 40%;
+    }
+
+    section.your-experiences {
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        grid-template-areas: "bowl content";
+        margin: 0;
+        background-color: #34495e;
+    } 
+
+    .left-col-experiences{
+        grid-area: content;
+        text-align: left;
+        align-self: center;
+    }
+    section.your-experiences img{
+        grid-area: bowl;
+        max-width: 300%;
+        width: 100%;
+        float: left;
+    }
+}
+
+.top{
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to{
+        opacity: 1;
+        transform: 0;
+    }
+}
+
+@keyframes overlay {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
